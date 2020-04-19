@@ -12,7 +12,7 @@ __all__ = ['PAM_Module', 'GAM_Module']
 
 
 class PAM_Module(Module):
-    """ Position attention module"""
+    """ point attention module"""
     #Ref from SAGAN
     def __init__(self, in_dim):
         super(PAM_Module, self).__init__()
